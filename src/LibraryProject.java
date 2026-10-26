@@ -11,7 +11,7 @@ public class LibraryProject {
     AuthService auth = new AuthService(library);
 
     try {
-        library.addItem(new Book(1,"the art of war","sun tzu"));
+        library.addItem(new Book(7,"the art of war","sun tzu"));
         library.addUser(new Librarian(1, "Admin", "admin123", 5001));
         library.addUser(new Member(1001, "Sara", "pass1"));
         library.addItem(new Book(1, "Java Basics", "Smith"));
